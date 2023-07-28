@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-text-cleanup"
+version = "0.1.0"
+description = ""
+authors = ["Max Vogel <max-v@berkeley.edu>"]
+readme = "README.md"
+packages = [{include = "pdf_text_cleanup"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = {git = "https://github.com/huggingface/transformers.git"}
+ipykernel = "^6.25.0"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
