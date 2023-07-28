@@ -11,6 +11,9 @@ python = "^3.11"
 transformers = {git = "https://github.com/huggingface/transformers.git"}
 ipykernel = "^6.25.0"
 torch = "^2.0.1"
+python-dotenv = "^1.0.0"
+ipyfilechooser = "^0.6.0"
+pqdm = "^0.2.0"
 
 
 [build-system]
